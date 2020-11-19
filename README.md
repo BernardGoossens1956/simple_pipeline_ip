@@ -11,11 +11,11 @@ The "testbench_simple_pipeline_ip.c" file contains the "main" function to test t
 
 The "helloworld.c" file contains another "main" function to run the IP on a FPGA based development board.
 
-The "test_...dump.h" files contain the hexadecimal encoding of a set of RISC-V programs to serve as data for the "simple_pipeline_ip" IP. Every program dumps the processor registers state at the end of the run.
+The "test_....h" files contain the hexadecimal encoding of a set of RISC-V programs to serve as data for the "simple_pipeline_ip" IP.
 
-The "vitis_hls.txt" file contains the prints after the runs of the IP on the "test_...dump.h" examples in the vitis_hls tool (print of the "main" function in the "testbench_simple_pipeline_ip.c" file).
+The "vitis_hls.txt" file contains the prints after the runs of the IP on the "test_....h" examples in the vitis_hls tool (print of the "main" function in the "testbench_simple_pipeline_ip.c" file).
 
-The "pynq_z1.txt" file contains the print after the run of the IP on the "test_mem_dump.h" example on a Pynq-Z1 development board (print of the "main" function in the "helloworld.c" file).
+The "pynq_z1.txt" file contains the print after the run of the IP on the "test_load_store.h" example on a Pynq-Z1 development board (print of the "main" function in the "helloworld.c" file).
 
 Complementary informations are available in the book "A RISC-V processor with High Level Synthesis ; a Do-It-Yourself approach", Bernard Goossens.
 
